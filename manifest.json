@@ -1,6 +1,6 @@
 {
-  "name": "UAE POS Tax &amp;amp; Currency Utility",
-  "short_name": "Tax &amp;amp; FX POS",
+  "name": "Taxv4.0",
+  "short_name": "Taxv4.0",
   "description": "Single-screen mobile utility for UAE VAT tax refund, live currency conversion, monthly installments, and quick calculations.",
   "id": "/Taxv4.0/",
   "start_url": "/Taxv4.0/",
@@ -26,16 +26,24 @@
   "dir": "auto",
   "lang": "en",
   "display_override": [
-    "standalone",
-    "window-controls-overlay",
     "fullscreen",
     "browser",
-    "minimal-ui"
+    "window-controls-overlay",
+    "standalone"
   ],
   "iarc_rating_id": "18",
   "prefer_related_applications": false,
   "categories": [
-    "finance"
+    "developer",
+    "developer tools",
+    "development",
+    "finance",
+    "lifestyle",
+    "security",
+    "shopping",
+    "social",
+    "travel",
+    "utilities"
   ],
   "edge_side_panel": {
     "preferred_width": 15
