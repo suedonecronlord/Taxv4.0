@@ -1,12 +1,12 @@
 {
-  "name": "UAE POS Tax &amp; Currency Utility",
-  "short_name": "Tax &amp; FX POS",
+  "name": "UAE POS Tax &amp;amp; Currency Utility",
+  "short_name": "Tax &amp;amp; FX POS",
   "description": "Single-screen mobile utility for UAE VAT tax refund, live currency conversion, monthly installments, and quick calculations.",
-  "id": "/TaxCurrencyV_1.0/",
-  "start_url": "/TaxCurrencyV_1.0/",
-  "scope": "/TaxCurrencyV_1.0/",
+  "id": "/Taxv4.0/",
+  "start_url": "/Taxv4.0/",
+  "scope": "/Taxv4.0/",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "background_color": "#0f172a",
   "theme_color": "#059669",
   "icons": [
@@ -22,5 +22,22 @@
       "type": "image/svg+xml",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "dir": "auto",
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay",
+    "fullscreen",
+    "browser",
+    "minimal-ui"
+  ],
+  "iarc_rating_id": "18",
+  "prefer_related_applications": false,
+  "categories": [
+    "finance"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 15
+  }
 }
